@@ -35,6 +35,7 @@ pip list | grep "package"
 ## Running the tests
 
 -c --check-up (fix fprobe or avprobe not found problem)
+
 -s --source-file (file with list of songs)
 
 Windows
