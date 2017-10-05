@@ -16,7 +16,7 @@ Python 2.7
 ```
 pip install -r requirements.txt
 
-run main.py with -c flag once
+run main.py with -c (fix fprobe or avprobe not found problem)
 ```
 
 Check packages
