@@ -62,6 +62,7 @@ def checkup_download(password, ydl_opts):
     log.info('checkup_download - CREATING FOLDER: {}'.format(temp_dir_path))
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            # testing ydl.download with youtube video 
             ydl.download(['https://www.youtube.com/watch?v=0D5JJZl6MB0'])
     except youtube_dl.utils.DownloadError:
         log.error('checkup_download - FFPROBE OR AVPROBE NOT FOUND')
